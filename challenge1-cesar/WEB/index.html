@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Challenge Calendar - Jour X</title>
+    </head>
+
+    <body>
+        <div id="middleBox">
+            <div id="headerBox">
+                <h1>Challenges de l'avant Jour X</h1>
+                <h2>Présenté par <a id="k3tlink" href="https://github.com/Kapas3T">Kapas3T <img type="image/svg" id="ghlinkimage" src="https://scripts.kapas3t.com/adv-calendar/github-white-icon.svg"/></a></h2>
+                <hr>
+            </div>
+            <div id="packForm">
+                <form>
+                    <p><i>« Le danger que l'on pressent, mais que l'on ne voit pas, est celui qui trouble le plus. » - Jules César</i></p>                 
+                    <label id="flagLabel">Flag : </label>
+                    <input type="text" id="field">
+                    <br>
+                    <input type="submit" value="submit" id="submit">
+                    <br>
+                    <a href="https://scripts.kapas3t.com/adv-calendar/challenge.zip" id="dwld" download>Download ZIP</a>
+                </form>
+            </div>
+        </div>
+    </body>
+
+    <style>
+        html{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            background: #152331;
+            background: linear-gradient(134deg, rgba(21, 35, 49, 1) 0%, rgba(0, 0, 0, 1) 100%);
+        }
+
+        body{
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #k3tlink{
+            color: lightskyblue;
+        }
+
+        #middleBox{
+            display: grid;
+            place-items: center;
+            text-align: center;
+            max-width: 400px;
+            background-color: #1e152a;
+            color: #f5e6e8;
+            border-radius: 15px;
+            border-color: #a898c0;
+            border-style: inset;
+            border-width: 3px;
+        }
+
+        h1{
+            margin-bottom: 5px;
+        }
+
+        h2{
+            margin-top: 5px;
+            font-size: 1.1em;
+            color: #e1dada;
+        }
+
+        hr{
+            width: 360px;
+            color: #a898c0;
+        }
+
+        #flagLabel{
+            display: block;
+            text-align: left;
+            padding-left: 30px;
+            padding-bottom: 5px;
+            padding-top: 10px;
+        }
+
+        #ghlinkimage{
+            margin-bottom: -3px;
+            justify-self: center;
+            height: 20px;
+
+        }
+
+        #field{
+            height: 35px;
+            width: 336px;
+            background-color: #11091d;
+            border-style: inset;
+            border-radius: 5px;
+            border-color: #a898c0;
+            color: #e1dada; 
+            text-align: center;
+            font-size: large;
+        }
+
+        #submit{
+            transition: 0.2s ease-in-out;
+            font-weight: 900;
+            font-size: medium;
+            margin-top: 15px;
+            height: 35px;
+            width: 340px;
+            border-color: #FFE66D;
+            background-color: #11091d61;
+            border-radius: 7px;
+            border-style: inset;
+            margin-bottom: 15px;
+            color: #e1dada; 
+        }
+        #submit:hover{
+            transition: 0.2s ease-out;
+            border-color: #ffe76d00;
+            background-color: #FFE66D;
+            color: #1e152a; 
+        }
+
+        #dwld{
+            display: inline-block;
+            box-sizing: border-box;
+            text-decoration: none;
+            text-align: center;
+            line-height: 35px;
+            cursor: pointer;
+            transition: 0.2s ease-in-out;
+            font-weight: 900;
+            font-size: medium;
+            margin-top: 0px;
+            height: 35px;
+            width: 340px;
+            background-color: green;
+            border-width: 0px;
+            border-radius: 7px;
+            border-style: inset;
+            margin-bottom: 30px;
+            color: #e1dada; 
+        }
+        #dwld:hover{
+            transition: 0.2s ease-out;
+            background-color: rgb(37, 146, 37);
+            color: #e1dada; 
+        }
+
+    </style>
+
+</html>
